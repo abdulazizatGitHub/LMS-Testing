@@ -18,8 +18,8 @@ function App() {
         {/* Protected Routes */}
         <Route element={<PrivateRoutes />}>
           <Route path="/receptionist/*" element={<Main />} />
-          <Route path="/admin/*" element={<AdminMain />} />
-          <Route path="/phelobotny/*" element={<PhlebotomyMain />} />
+          {/* <Route path="/admin/*" element={<AdminMain />} />
+          <Route path="/phelobotny/*" element={<PhlebotomyMain />} /> */}
         </Route>
 
         {/* Forgot Password Route */}
