@@ -1,0 +1,108 @@
+@import '../../constants/Colors.css';
+.Patient-Main-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fontRegular);
+    width: 100%;
+    /* height: 110vh; */
+    height: auto;
+}
+/* .Profile-Main-Container{
+    display: flex;
+    justify-content: center;
+    width: 99%;
+    height: 105vh;
+    margin-top: 15px;
+} */
+
+.Patient-Details-Container{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+    width: 95%;
+    padding-right: 1rem;
+    /* height: 98%; */
+    border: 5px solid rgb(255, 253, 253);
+    border-radius: 10px; 
+    background-color: var(--navbarTextColor);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.inputFieldPR{
+    border-radius: 5px;
+}
+
+.btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Next-button{
+    width: 80%;
+    height: 5vh;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: var(--fontRegular);
+    background-color: var( --lms);
+    border: 2px solid var(--lms);
+    border-radius: 5px; 
+}
+
+
+
+.patient-Details-pers{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.patient-divss{
+    width: 45%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.patient-divss input{
+    width: 100%;
+    height: 2rem;
+    padding-left: 0.5rem;
+}
+.radio-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20%;
+    /* background-color: red; */
+}
+.patient-divss-radio-btns{
+    width: 8rem;
+    height: 2rem;
+    display: flex;
+    border: 1px solid black;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.radio-btn-in-patient-divss{
+    background-color: green;
+    
+}
+
+
+@media screen and (max-width: 700px) {
+    .patient-divss{
+        width: 85%;
+    }
+}

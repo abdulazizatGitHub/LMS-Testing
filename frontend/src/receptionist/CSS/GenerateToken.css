@@ -1,0 +1,126 @@
+@import '../../constants/Colors.css';
+
+#generateToken-innerComponent{
+    margin: 2rem;
+    margin-top: 1.2rem;
+    margin-bottom: 0px;
+    font-family: var(--fontRegular);
+    background-color: var(--boxBackColor);
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+#Lab-name-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.labNameAndTime{
+    margin-left: 1em;
+    margin-right: 1em;
+    font-weight: 700;
+    font-size: var(--large);
+    color: var(--textColor);
+}
+
+#generateToken-labInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.labInfo{
+    margin: 0px 1em 0px 1.7em;
+    font-size: var(--medium);
+    font-weight: 500;
+    color: var(--textColor);
+}
+
+#generateToken-PinAndToken{
+    display: flex;
+    justify-content: space-between;
+}
+
+.PinAndToken{
+    margin-left: 1.7em;
+    margin-right: 1em;
+    font-weight: 700;
+    font-size: var(--medium);
+    color: var(--textColor);
+}
+
+ #generateToken-userInfo {
+    display: flex;
+    flex-direction: column;
+    }
+
+#genToken-firstDiv,
+#genToken-secondDiv {
+    
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: repeat(1, 1fr); 
+    margin-right: 2em;
+}
+
+.userInfo-heading,
+.userInfo-text {
+    margin-left: 1.7em; 
+    margin-top: 0.7em; 
+    font-size: var(--medium);
+    font-weight: 500;
+    color: var(--textColor);
+    width: calc(100% ); 
+
+}
+
+.userInfo-heading {
+    font-weight: 700;
+}
+
+
+
+
+
+#generateToken-subTotal{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+
+#genToken-subTotal-text{
+    margin: 0px 4.8em 0.5em 0px;
+    color: var(--textColor);
+    font-weight: 700;
+    font-size: var(--medium);
+}
+
+
+
+#generateToken-btn{
+    margin: 2em;
+    background-color: var(--buttonColor);
+    color: var(--sideBartextColor);
+    border: none;
+    border-radius: 4px;
+    width: 40%;
+    height: 50px;
+    font-size: var(--medium);
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+
+.gToken-table-cnt{
+    /* max-height: 18em; */
+    height: auto
+}
+.gToken-table-head{
+ border-top: 3px solid #EFEFEF;
+}
+
+
+
+
+

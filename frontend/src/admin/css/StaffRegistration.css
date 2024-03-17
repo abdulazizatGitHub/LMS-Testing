@@ -1,0 +1,327 @@
+@import '../../constants/Colors.css';
+
+.Staff-Registration-Container {
+    width: 99.77%;
+    height: auto; 
+    font-family: var(--fontRegular);
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.sr-image-container {
+    width: 18rem;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(255, 253, 253);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0.6rem;
+    margin-top: 0.5rem;
+}
+
+.sr-image-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sr-image-text h4 {
+    color: var(--lms);
+    font-weight: 600;
+    font-size: large;
+}
+.sr-image-text p {
+    font-size: medium;
+    font-weight: 400;
+}
+
+.sr-image-main {
+    width: 90%;
+    height: 10rem;
+    border-radius: 1rem;
+    background: #F4F4F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sr-image-main span {
+    width: 100%;
+    height: 35%;
+    border-radius: 50%;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.staff-image-container {
+    position: relative;
+  }
+  
+  .staff-image-remover {
+    position: absolute;
+    right: 2.5%;
+    bottom: 75%;
+    border: px solid rgb(255, 253, 253);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+
+.sr-form-container {
+    width: 70%;
+    height: 100%;
+    border: 5px solid rgb(255, 253, 253);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0.6rem;
+    margin-top: 0.5rem;
+}
+
+.sr-form-container p {
+    color: var(--lms);
+    font-weight: 600;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sr-form {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.sr-form h3 {
+    font-weight: 800;
+    font-size: large;
+    margin-left: 1rem;
+    text-decoration: underline ;
+    align-self:flex-start;
+}
+
+.sr-form-details-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 2rem
+}
+
+.sr-form-inputs-container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+}
+
+.sr-form-inputs-container input {
+    width: 100%;
+    height: 2.5rem; /* Increase the height as needed */
+    border: 1px solid #838181;
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    padding: 8px; /* Add padding for better spacing */
+}
+
+.sr-form-inputs-container select {
+    width: 100%;
+    height: 2.5rem; /* Increase the height as needed */
+    border: 1px solid #838181;
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    padding: 8px; /* Add padding for better spacing */
+    background-color: #ffffff; /* Background color */
+    font-family: var(--fontRegular); /* Font family */
+    color: #333333; /* Text color */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.sr-form-inputs-container select:focus {
+    outline: none; /* Remove default focus style */
+    border-color: #22cab8; /* Change border color on focus */
+}
+
+
+.sr-form-inputs-container label {
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.sr-form-gender-container {
+    display: flex;
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.sr-form-gender-main {
+    display: flex;
+    border: 1px solid #838181;
+    border-radius: 5px;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    position: relative;
+    width: 8rem;
+    height: 2.5rem;
+    gap: 0.5rem;
+}
+
+.sr-form-gender-main label {
+    font-size: var(--small);
+    font-weight: lighter;
+    color: #5A6475;
+    text-align: center; /* Center text */
+    margin-top: -0.1rem; /* Adjust the margin-top value to move the text slightly above */
+
+}
+
+.sr-form-gender-main input {
+    /* Add these styles to make the checkbox round and centered */
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 10px;
+    
+}
+
+.sr-form-button-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-left: 1.2rem;
+    margin-top: 2rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+
+.sr-form-button-container button {
+    width: 20rem;
+    height: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: var(--fontRegular);
+    background-color: var( --lms);
+    border: 2px solid var(--lms);
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+   
+}
+
+.sr-form-button-container button:hover {
+    transform: scale(1.1);
+}
+
+.sr-form-gender-container input[type="radio"] {
+    appearance: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid var( --headingColor);
+    margin-right: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.sr-form-gender-container input[type="radio"]:checked::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: var(--lms);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.custom-alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #cdf3ee;
+    padding: 1.3rem;
+    border: 5px solid #cdf3ee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0.6rem;
+    z-index: 9999;
+    max-width: 15rem; /* Adjust the maximum width as needed */
+    width: 100%; /* Ensure it takes the full width */
+    height: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-alert p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--fontRegular);
+    font-weight: bold;
+}
+
+.success-alert {
+    color: rgb(108, 178, 108);
+  }
+  
+  .error-alert {
+    color: red;
+  }
+
+
+
+  @media screen and (max-width: 969px) {
+    .Staff-Registration-Container{
+        flex-direction: column-reverse;
+        width: 95%;
+        
+    }
+    .sr-form-container{
+        width: 95%;
+        align-self: center;
+    }
+    .sr-image-container{
+        /* width: 100%; */
+        align-self: center;
+        
+    }
+    .sr-form-gender-container{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+  }
+
+  
+  @media screen and (max-width: 444px) {
+    .sr-form-inputs-container{
+        width: 100%;
+    }
+  }
